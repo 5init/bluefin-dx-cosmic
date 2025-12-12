@@ -23,4 +23,5 @@ dnf5 install -y @cosmic-desktop-environment
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+systemctl disable gdm.service
 systemctl enable cosmic-greeter.service

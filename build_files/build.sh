@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 -y remove gnome-* --exclude gnome-keyring,gnome-keyring-pam,nautilus,nautilus-extension
+dnf5 -y remove gnome-* --exclude gnome-keyring,gnome-keyring-pam,nautilus,nautilus-extension,gnome-autoar
 dnf5 install -y @cosmic-desktop-environment
 
 # Use a COPR Example:
